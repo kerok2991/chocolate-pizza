@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 #topBorder  {
     height: 9px;
     width: 100%;
@@ -12,10 +17,6 @@
      );
 }
 
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 body > * {
     width: 960px;
@@ -112,18 +113,18 @@ button {
     background-color: lightcoral;
 }
 
-#super-footer {
+#special-footer {
     border-top: 1px solid grey; 
     color: grey;
 }
 
-#super-footer img, #super-footer p {
+#special-footer img, #special-footer p {
     display: block;
     margin: auto;
     text-align: center;
 }
 
-#super-footer img {
+#special-footer img {
     position: relative;
     bottom: 18px;
 }
